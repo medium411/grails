@@ -2,7 +2,7 @@ class FullCalendarResourceGrailsPlugin {
     // the plugin version
     def version = "1.5.4"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "2.2 > *"
+    def grailsVersion = "2.0 > *"
 	// the other plugins this plugin depends on
 	/*
 	 * FullCalendar has been tested with:
@@ -28,7 +28,7 @@ class FullCalendarResourceGrailsPlugin {
 A wrapper for Adam Shaw's FullCalendar jquery calendar, a full page javascript calendar component using jQuery.
 See http://arshaw.com/fullcalendar/ for more details.
 jQuery FullCalendar by Adam Shaw is a wonderful calendar plugin.
-However, one thing I needed was missing — a resource day view.
+However, one thing I needed was missing ï¿½ a resource day view.
 '''
 
     // URL to the plugin's documentation
