@@ -4,7 +4,7 @@ modules = {
 		dependsOn 'jquery-ui'
 		resource url: [ plugin:'full-calendar', dir:'css/fullcalendar', file:'fullcalendar.css' ]
 		resource url: [ plugin:'full-calendar', dir:'css/fullcalendar', file:'fullcalendar.print.css' ], attrs: [ media: 'print' ]
-		resource url: [ plugin:'full-calendar', dir:'js/fullcalendar', file:'fullcalendar.js' ], 
-            disposition:'head', nominify: true
+		resource url: [ plugin:'full-calendar', dir:'js/fullcalendar', file:'fullcalendar.js' ],
+		         disposition:'head', nominify: true
 	}
 }
