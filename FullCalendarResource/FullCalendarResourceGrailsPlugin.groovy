@@ -14,7 +14,6 @@ class FullCalendarResourceGrailsPlugin {
 	 * possible, given the details above and available jquery & 
 	 * jquery-ui plugins. 
 	*/
-	def dependsOn = [ 'jquery': '1.4.2.2 > *', 'jqueryUi': '1.8.2.1 > *' ]
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
         "grails-app/views/error.gsp"

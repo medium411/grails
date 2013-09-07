@@ -33,5 +33,8 @@ grails.project.dependency.resolution = {
               ":rest-client-builder:1.0.3") {
             export = false
         }
+
+        runtime ':jquery:1.10.2'
+        runtime ':jqueryUi:1.8.24'
     }
 }
