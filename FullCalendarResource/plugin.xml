@@ -1,0 +1,26 @@
+<plugin name='full-calendar-resource' version='1.5.4' grailsVersion='2.2 &gt; *'>
+  <author>Martin Dow + Ike Lin</author>
+  <authorEmail>martin.dow@gmail.com</authorEmail>
+  <title>FullCalendar with resources</title>
+  <description>A wrapper for Adam Shaw's FullCalendar jquery calendar, a full page javascript calendar component using jQuery.
+See http://arshaw.com/fullcalendar/ for more details.
+jQuery FullCalendar by Adam Shaw is a wonderful calendar plugin.
+However, one thing I needed was missing � a resource day view.
+</description>
+  <documentation>http://arshaw.com/fullcalendar/docs/</documentation>
+  <type>FullCalendarResourceGrailsPlugin</type>
+  <resources>
+    <resource>FullCalendarResourceResources</resource>
+    <resource>com.arshaw.fullcalendar.CalendarTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='jquery' version='1.4.2.2 &gt; *' />
+    <plugin name='jqueryUi' version='1.8.2.1 &gt; *' />
+  </runtimePluginRequirements>
+  <behavior />
+</plugin>
